@@ -1,4 +1,36 @@
+
 .App {
+  font-family: Impact;
   text-align: center;
+  display: flexbox;
+  font-family: fantasy;
+  background-color: #5de0e4;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+.card {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
   display: flex;
+  flex-direction: row;
+  border-radius: 1rem;
+  background-color: bisque;
+  width: 40vw;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 10px;
+}
+
+img {
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+  padding: 10px;
+}
+
+.data {
+  margin: auto;
+  text-align: left;
 }
